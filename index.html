@@ -18,10 +18,6 @@
           rel="stylesheet">
     <!-- Link To CSS -->
     <link href="style.css" rel="stylesheet"/>
-    <!-- Animation and Sliding-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-</head>
 <body>
 <!--Header-->
 <header style="position: fixed;
@@ -30,7 +26,7 @@
   width: 100%;">
     <!--Navbar-->
     <nav
-            class=" navbar navbar-expand-lg bg-body-tertiary navbar-light bg-white ">
+            class=" navbar navbar-expand-lg bg-body-tertiary  ">
         <div class="container-fluid container ">
             <a class="navbar-brand" href="#"><img
                     alt="Bootstrap"
@@ -82,16 +78,26 @@
 <!-- Information and Campaign -->
 
 <section>
-    <div class="container col-xxl-8 px-4 py-5 ">
+    <div
+            class="container col-xxl-8 px-4 py-5"
+            style="margin-top: 50px">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
+                <img alt="Bootstrap Themes"
+                     class="d-none d-lg-block img-fluid z-n1 position-absolute"
+                     height="500"
+                     loading="lazy"
+                     src="https://staufenbielinstitut.de/wp-content/uploads/2023/07/background_graphics.svg"
+                     style="margin-bottom:100px"
+                     width="450">>
 
                 <img alt="Bootstrap Themes"
-                     class="d-block mx-lg-auto img-fluid"
-                     height="500"
+                     class="d-block mx-lg-auto img-fluid "
+                     height="400"
                      loading="lazy"
                      src="https://staufenbielinstitut.de/wp-content/uploads/2023/07/hero-image.png"
                      width="700">
+
             </div>
             <div class="col-lg-6">
                 <h1 class="display-5 fw-bold lh-1 mb-3">
@@ -142,7 +148,7 @@
     <!-- slider Or Animation-->
 
     <div class="container">
-        <div class="row">
+        <div class="col-md-12">
             <div class="col-md-12">
                 <div class="lc-block">
                     <div class="carousel slide pt-5 pb-4"
@@ -662,7 +668,9 @@
         </div>
     </div>
 </section>
+
 <!--HR department-->
+
 <section>
     <div class="bg-danger-subtle px-5 py-5">
         <div
@@ -1188,8 +1196,7 @@
 </section>
 
 <!--Prices and Services-->
-<section
->
+<section>
     <div>
         <h1 class="text-center px-4 py-5 ">
             Flexible Preise
@@ -1197,7 +1204,7 @@
                 class="text-danger"
         >Leistungen</span></h1>
     </div>
-    <div class="col-xxl">
+    <div class="col-xxl px-4 py-5">
         <div
                 class=" row flex-lg d-flex justify-content-center align-items-center  ">
             <div
@@ -1297,7 +1304,7 @@
                     </button>
                 </div>
             </div>
-
+            <!--Background of footer and Form-->
             <div
                     class="bg-danger-subtle z-n1 position-absolute"
                     style="margin-top: 700px ;
@@ -1307,7 +1314,10 @@
                         alt="background image"
                         src="https://staufenbielinstitut.de/wp-content/uploads/2023/07/background_graphics.svg">
             </div>
-            <div class="container">
+
+            <!--Info form-->
+
+            <div class="container ">
                 <h1 class="text-center ">Lass
                     Dich
                     von unseren
